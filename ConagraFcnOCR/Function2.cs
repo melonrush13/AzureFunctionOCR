@@ -32,6 +32,7 @@ namespace ConagraFcnOCR
             AnalyzeImage(myBlob, log, name).Wait();
         }
 
+        //image recognition
         public static async Task AnalyzeImage(Stream myBlob, TraceWriter log, string name) {
 
             HttpClient client = new HttpClient();
