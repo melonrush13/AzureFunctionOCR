@@ -14,11 +14,11 @@ namespace ConagraFcnOCR
 
     public static class Function2
     {
-        const string endpointUrl = "https://eastus2.api.cognitive.microsoft.com/vision/v2.0/analyze";
-        const string subscriptionKey = "da093e8ba0d34b10849224c3858f4088";
+        const string endpointUrl = "https://(regiion).api.cognitive.microsoft.com/vision/v2.0/analyze";
+        const string subscriptionKey = "insert key";
 
-        const string cosmosSubscriptionKey = "3Y0MTtygYvQw2kTSO1NpHrxYohj92qQqmtR3nLtVqjZnZwE4kmBOLLUM5dFQU43bZRV4FxqzYWEjATBFWJyEBQ==";
-        const string cosmosUrl = "https://conagraimgdb.documents.azure.com:443/";
+        const string cosmosSubscriptionKey = "insert key";
+        const string cosmosUrl = "https://conagraimgdb.documents.azure.com:(numbers here)/";
 
 
         [FunctionName("Function2")]
